@@ -16,19 +16,20 @@ namespace PIAWebApi.Controllers
         private readonly IMapper mapper;
         private readonly IConfiguration configuration;
 
-        public RifasController(ApplicationDbContext dbcontext, IMapper mapper)
+        public RifasController(ApplicationDbContext dbcontext, IMapper mapper, IConfiguration configuration)
         {
             this.dbcontext = dbcontext;
             this.mapper = mapper;
+            this.configuration = configuration;
         }
 
-        
 
-        //[HttpGet("configuraciones")]
-        //public ActionResult<string> ObtenerConfiguracion()
-        //{
-        //    return configuration["apellido"];
-        //}
+
+        [HttpGet("IConfigurationEjemplo")]
+        public ActionResult<string> ObtenerConfiguracion()
+        {
+            return configuration["Nombre"];
+        }
 
 
         [HttpGet] // api/autores
