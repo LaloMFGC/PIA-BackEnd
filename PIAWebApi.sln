@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PIAWebApi", "PIAWebApi\PIAWebApi.csproj", "{B769079B-E2F5-42E1-A90F-9B929AD17AC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B769079B-E2F5-42E1-A90F-9B929AD17AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B769079B-E2F5-42E1-A90F-9B929AD17AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B769079B-E2F5-42E1-A90F-9B929AD17AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B769079B-E2F5-42E1-A90F-9B929AD17AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF1FDE30-6F56-4C46-9ADE-BE69A53D9407}
+	EndGlobalSection
+EndGlobal
